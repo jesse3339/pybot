@@ -17,7 +17,7 @@ except FileNotFoundError as e:
     f.close()
 
 # bot description and settings
-description = "I aM nIg NoG bOt!"
+description = "I aM bOt!"
 bot = commands.Bot(command_prefix='$', description=description)
 
 # load directories for cogs
