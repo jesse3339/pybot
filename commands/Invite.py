@@ -17,4 +17,4 @@ class Invite:
     async def invite(self, ctx):
         """Invite me to your server."""
         myInvite = discord.utils.oauth_url(self.bot.user.id, permissions=discord.Permissions(permissions=8))
-        await ctx.channel.send('Fuck off puss boi: \n\n<{}>'.format(myInvite))
+        await ctx.channel.send('Wowzers!: \n\n<{}>'.format(myInvite))
