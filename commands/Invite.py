@@ -15,6 +15,6 @@ class Invite:
 
     @commands.command(pass_context=True)
     async def invite(self, ctx):
-        """Invite my bitch ass to your own mothafuckin server."""
+        """Invite me to your server."""
         myInvite = discord.utils.oauth_url(self.bot.user.id, permissions=discord.Permissions(permissions=8))
         await ctx.channel.send('Fuck off puss boi: \n\n<{}>'.format(myInvite))
